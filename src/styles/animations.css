@@ -1,0 +1,19 @@
+@keyframes lift-weight { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-20px); } }
+@keyframes pull-down { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(25px); } }
+@keyframes pull-row { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(-20px); } }
+@keyframes curl-up { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(-50deg); } }
+@keyframes leg-extend { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(-70deg); } }
+@keyframes pec-deck-left { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(40deg); } }
+@keyframes pec-deck-right { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(-40deg); } }
+@keyframes lateral-raise-l { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(60deg); } }
+@keyframes lateral-raise-r { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(-60deg); } }
+@keyframes leg-raise { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(-80deg); } }
+@keyframes abduct-l { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(20deg); } }
+@keyframes abduct-r { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(-20deg); } }
+@keyframes squat-down { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(15px); } }
+
+/* Desactiva doble tap para zoom y resaltado azul nativo */
+button, [role="button"] {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
